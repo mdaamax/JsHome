@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let birthDate = prompt("Введите вашу дату рождения (ГГГГ-ММ-ДД):");
+  let currentDate = new Date();
+  let age = currentDate.getFullYear() - new Date(birthDate).getFullYear();
+  alert("Ваш текущий возраст: " + age);
+</script>
+</body>
+</html>
